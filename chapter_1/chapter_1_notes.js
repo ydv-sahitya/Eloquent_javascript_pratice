@@ -169,7 +169,7 @@ for (let number = 0; number <= 12; number = number + 2) {
 // -- another example of mine
 
 let result = 1;
-for (let counter = 0; counter < 5; counter + 1) {
+for (let counter = 0; counter < 5; counter =+ 1) {
   result = result * 2;
 }
 console.log(result);
@@ -178,7 +178,7 @@ console.log(result);
 
 // Breaking Out of a Loop
 
-for (let current = 20; ; current ++) {
+for (let current = 20; ; current =+ 1) {
   if (current % 7 == 0) {
     console.log(current);
     break;
@@ -221,11 +221,6 @@ switch (prompt("which is the weather like? ")) {
     console.log("Unknown Weather type!");
     break;
 } 
-
-
-
-
-
 
 
 
